@@ -1,0 +1,20 @@
+size 300 300 [
+	line alex 10 0 20 0 red ;
+	line stephen 10 10 20 10 red ;
+	line phil 10 0 10 10 green ;
+	line patti 10 10 20 10 green ;
+
+		move alex 0 1 ;
+		move stephen 0 -1 ;
+		move phil 1 0 ;
+		move patti -1 0 ;
+	end ;
+	rect reca 1 1 10 10 cyan ;
+	rect recb 20 20 10 10 green ;
+	rect recc 40 40 20 20 blue ;
+	rect recd 80 80 40 40 cyan ;
+	for y = 1 to 10 by 1 do
+		move reca 1 1 ;
+		move recd -1 -1 ;
+	end ;
+]
